@@ -1,21 +1,44 @@
-MIT License
+# 双重许可证（Dual License）
 
-Copyright (c) 2026 RicalLiu
+本项目采用 **GPL v2+ 与 LGPL v2.1+ 双许可证**发布，使用者可**任选其一**。
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## ⚠️ 安装 / 使用前必读
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- 两种许可证均为 **copyleft（传染性）许可证**：你对本项目的任何修改，一旦**分发**（发给他人、公开发布、或部署给第三方使用），**必须**以相同的许可证开源，并提供完整、可构建的源代码。
+- 你不能将本项目、或包含本项目修改的任何衍生作品，以闭源形式对外分发。
+- 首次使用前，请阅读下方说明**选择一种许可证**，并在你的项目声明中注明选择结果。选择后即受所选许可证全部条款约束。
+
+---
+
+## 许可证选择
+
+### 选项 A：GNU GPL v2+（推荐用于整体衍生作品）
+
+- 适用：以本项目为基础做整体二次开发、整合、再发布。
+- 约束：你的衍生作品整体必须以 GPL v2（或更高版本）开源。
+- 全文：`LICENSE.GPLv2`
+
+### 选项 B：GNU LGPL v2.1+（推荐用于作为库被链接）
+
+- 适用：将本项目作为**库**链接进你自己的程序，且不想让整个程序被迫采用 GPL。
+- 约束：仅对本项目库本身的修改必须开源；通过公开接口链接它的程序可以保持你自己的许可证。
+- 全文：`LICENSE.LGPLv2.1`
+
+---
+
+## 选择方法
+
+1. 阅读上述两个许可证全文；
+2. 任选其一作为你的授权依据（不要求书面告知作者，但建议在文档中注明）；
+3. 一经选择，即受该许可证约束；若分发时未声明，视为在 GPL v2+ 与 LGPL v2.1+ 之间任选其一授权给你。
+
+## 协议文本
+
+| 文件 | 内容 |
+|------|------|
+| `LICENSE.GPLv2` | GNU General Public License, version 2（含 "or later" 适用说明，即 GPL v2+） |
+| `LICENSE.LGPLv2.1` | GNU Lesser General Public License, version 2.1（含 "or later" 适用说明，即 LGPL v2.1+） |
+
+若本文件与两份协议全文表述冲突，以 Free Software Foundation 官方发布的协议文本为准。
