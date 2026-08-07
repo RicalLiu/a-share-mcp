@@ -1,0 +1,7 @@
+mode: simulation  # simulation（模拟）| real（同花顺，待 Step 3 实现）
+
+risk:
+  max_single_stock_ratio: 0.2     # 单票市值不得超过总资产的 20%
+  max_daily_loss_ratio: 0.03      # 当日亏损达总资产 3% 后禁止买入
+  require_confirm_ratio: 0.05     # 单笔金额达总资产 5% 标记「需重点确认」
+  forbid_all_sell: true           # 禁止一键清仓（需二次确认）

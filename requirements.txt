@@ -1,0 +1,7 @@
+fastmcp
+# real 模式（同花顺自动化，Step 3）再安装：
+# pyautogui
+# opencv-python
+# pytesseract
+# pandas
+# openpyxl
